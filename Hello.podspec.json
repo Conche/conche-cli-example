@@ -1,0 +1,16 @@
+{
+  "name": "Hello",
+  "version": "1.0.0",
+  "source_files": "Hello/*.swift",
+  "entry_points": {
+    "cli": {
+      "hello": "bin/hello.swift"
+    }
+  },
+  "test_specification": {
+    "source_files": "HelloSpecs/*.swift",
+    "dependencies": {
+      "Spectre": ["~> 0.5.0"]
+    }
+  }
+}
