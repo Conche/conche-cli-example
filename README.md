@@ -1,5 +1,7 @@
 # Conche CLI Example
 
+[![Build Status](https://travis-ci.org/Conche/conche-cli-example.svg)](https://travis-ci.org/Conche/conche-cli-example)
+
 This repository is a small example command line interface using the Conche
 build system. It was mostly generated via `conche init`.
 
